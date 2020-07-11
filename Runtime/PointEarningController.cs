@@ -1,12 +1,12 @@
-﻿namespace com.faith.Gameplay
+﻿namespace com.faith.gameplay
 {
     using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
     using TMPro;
 
-    using com.faith.Math;
-    using com.faith.GameplayService;
+    using com.faith.math;
+    using com.faith.gameplay_service;
 
     public class PointEarningController : MonoBehaviour
     {

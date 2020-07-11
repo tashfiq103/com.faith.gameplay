@@ -1,4 +1,4 @@
-﻿namespace com.faith.Gameplay {
+﻿namespace com.faith.gameplay {
 
     using System.Collections;
     using TMPro;
@@ -6,7 +6,7 @@
     using UnityEngine.Events;
     using UnityEngine.UI;
 
-    using com.faith.Math;
+    using com.faith.math;
 
     public class UserRetensionManager : MonoBehaviour
     {

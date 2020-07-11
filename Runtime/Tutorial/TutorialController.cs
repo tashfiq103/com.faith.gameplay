@@ -1,7 +1,7 @@
-﻿namespace com.faith.GameplayService
+﻿namespace com.faith.gameplay
 {
     using UnityEngine;
-    using com.faith.Gameplay;
+    using com.faith.gameplay_service;
 
     public class TutorialController : MonoBehaviour
     {

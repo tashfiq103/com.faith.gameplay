@@ -1,14 +1,13 @@
 {
     "name" : "com.faith.gameplay",
-    "displayName": "FAITH GameplayLibrary",
+    "displayName": "FAITH AI_Library",
     "version" : "0.1.0",
     "unity": "2019.4",
     "author": "Muhammad Tashfiqul Bari",
-    "description": "Gameplay library for different game mechanincs",
+    "description": "Gameplay prebuild coding",
     "dependencies":{
         "com.faith.math" : "https://github.com/tashfiq103/com.faith.math.git",
-        "com.faith.ai" : "https://github.com/tashfiq103/com.faith.ai.git",
-        "com.faith.gameplayservice" : "https://github.com/tashfiq103/com.faith.gameplayservice.git"
+        "com.faith.gameplay_service" : "https://github.com/tashfiq103/com.faith.gameplay_service.git"
     },
     "repository":{
         "type":"git",

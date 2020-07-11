@@ -1,4 +1,4 @@
-﻿namespace com.faith.Gameplay
+﻿namespace com.faith.gameplay
 {
     using System;
     using UnityEngine;

@@ -1,4 +1,4 @@
-﻿namespace com.faith.Gameplay {
+﻿namespace com.faith.gameplay {
     using UnityEngine;
 
     public enum DialougeTag {

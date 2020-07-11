@@ -1,7 +1,7 @@
-﻿namespace com.faith.Math
+﻿namespace com.faith.gameplay
 {
     using UnityEngine;
-    using com.faith.GameplayService;
+    using com.faith.gameplay_service;
 
     public class LerpWaypointController : MonoBehaviour
     {

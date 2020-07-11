@@ -1,8 +1,8 @@
-﻿namespace com.faith.Gameplay
+﻿namespace com.faith.gameplay
 {
     using UnityEngine;
 
-    using com.faith.AI;
+    //using com.faith.ai;
 
     public class GeoLocationManager : MonoBehaviour
     {
@@ -24,7 +24,7 @@
             [Space(2.5f)]
             public AudioClip backgroundMusic;
             [Space(2.5f)]
-            public NPCRoamingManager[] NPCRoamingManagers;
+            //public NPCRoamingManager[] NPCRoamingManagers;
 
             [Space(5.0f)]
             [Header("Settings   :   GameSpecefic")]
@@ -246,11 +246,11 @@
                     {
                         mapInfo[t_MapIndex].mapContainer.SetActive(true);
                         ActiveObjectForMap(t_MapIndex);
-                        int t_NumberOfNPCRoamingManager = mapInfo[t_MapIndex].NPCRoamingManagers.Length;
-                        for (int npcRoamingManagerIndex = 0; npcRoamingManagerIndex < t_NumberOfNPCRoamingManager; npcRoamingManagerIndex++)
-                        {
-                            mapInfo[t_MapIndex].NPCRoamingManagers[npcRoamingManagerIndex].PreProcess();
-                        }
+                        // int t_NumberOfNPCRoamingManager = mapInfo[t_MapIndex].NPCRoamingManagers.Length;
+                        // for (int npcRoamingManagerIndex = 0; npcRoamingManagerIndex < t_NumberOfNPCRoamingManager; npcRoamingManagerIndex++)
+                        // {
+                        //     mapInfo[t_MapIndex].NPCRoamingManagers[npcRoamingManagerIndex].PreProcess();
+                        // }
                     }
                 }
             }
@@ -264,12 +264,12 @@
             if (t_NextLevelMapIndex != t_MapIndex)
             {
 
-                int t_NumberOfNPCRoamingManager = mapInfo[t_MapIndex].NPCRoamingManagers.Length;
-                for (int npcRoamingManagerIndex = 0; npcRoamingManagerIndex < t_NumberOfNPCRoamingManager; npcRoamingManagerIndex++)
-                {
+                // int t_NumberOfNPCRoamingManager = mapInfo[t_MapIndex].NPCRoamingManagers.Length;
+                // for (int npcRoamingManagerIndex = 0; npcRoamingManagerIndex < t_NumberOfNPCRoamingManager; npcRoamingManagerIndex++)
+                // {
 
-                    mapInfo[t_MapIndex].NPCRoamingManagers[npcRoamingManagerIndex].PostProcess(true);
-                }
+                //     mapInfo[t_MapIndex].NPCRoamingManagers[npcRoamingManagerIndex].PostProcess(true);
+                // }
             }
         }
 

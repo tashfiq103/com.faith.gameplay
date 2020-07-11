@@ -1,12 +1,12 @@
-﻿namespace com.faith.Gameplay
+﻿namespace com.faith.gameplay
 {
     using System.Collections;
     using UnityEngine;
     using UnityEngine.AI;
     using UnityEngine.Events;
 
-    using com.faith.Math;
-    using com.faith.GameplayService;
+    using com.faith.math;
+    using com.faith.gameplay_service;
 
     public class PlayerControllerOnNavMesh : MonoBehaviour
     {

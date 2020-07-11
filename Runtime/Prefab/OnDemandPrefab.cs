@@ -1,9 +1,9 @@
-﻿namespace com.faith.Gameplay
+﻿namespace com.faith.gameplay
 {
     using System.Collections.Generic;
     using UnityEngine;
 
-    using com.faith.Math;
+    using com.faith.math;
 
     [System.Serializable]
     public struct Item

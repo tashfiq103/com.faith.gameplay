@@ -1,8 +1,9 @@
-﻿namespace com.faith.Gameplay {
+﻿namespace com.faith.gameplay {
 
     using System.Collections.Generic;
     using System.Collections;
     using UnityEngine;
+    using com.faith.gameplay_service;
 
     public class CoinEarningController : MonoBehaviour {
 
