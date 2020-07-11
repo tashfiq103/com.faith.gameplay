@@ -1,0 +1,15 @@
+{
+    "name": "com.faith.Gameplay.Editor",
+    "references": [
+        "GUID:32e3290345f52854ab32b3d49c0b6ef7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
