@@ -6,8 +6,7 @@
     "author": "Muhammad Tashfiqul Bari",
     "description": "Gameplay prebuild coding",
     "dependencies":{
-        "com.faith.math" : "https://github.com/tashfiq103/com.faith.math.git",
-        "com.faith.gameplay_service" : "https://github.com/tashfiq103/com.faith.gameplay_service.git"
+
     },
     "repository":{
         "type":"git",
