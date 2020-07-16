@@ -1,7 +1,7 @@
 {
     "name" : "com.faith.gameplay",
-    "displayName": "FAITH AI_Library",
-    "version" : "0.1.0",
+    "displayName": "FAITH Gameplay",
+    "version" : "0.1.1",
     "unity": "2019.4",
     "author": "Muhammad Tashfiqul Bari",
     "description": "Gameplay prebuild coding",
