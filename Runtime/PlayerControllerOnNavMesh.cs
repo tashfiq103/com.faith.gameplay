@@ -6,7 +6,7 @@
     using UnityEngine.Events;
 
     using com.faith.math;
-    using com.faith.gameplay_service;
+    using com.faith.gameplay.service;
 
     public class PlayerControllerOnNavMesh : MonoBehaviour
     {

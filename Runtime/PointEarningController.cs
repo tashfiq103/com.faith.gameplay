@@ -6,7 +6,7 @@
     using TMPro;
 
     using com.faith.math;
-    using com.faith.gameplay_service;
+    using com.faith.gameplay.service;
 
     public class PointEarningController : MonoBehaviour
     {

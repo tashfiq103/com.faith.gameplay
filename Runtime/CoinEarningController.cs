@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using System.Collections;
     using UnityEngine;
-    using com.faith.gameplay_service;
+    using com.faith.gameplay.service;
 
     public class CoinEarningController : MonoBehaviour {
 

@@ -6,7 +6,7 @@
     using UnityEngine;
     using UnityEngine.Events;
 
-    using com.faith.gameplay_service;
+    using com.faith.gameplay.service;
 
     [RequireComponent(typeof(OnDemandPrefab))]
     public class CoinReward : MonoBehaviour
