@@ -15,7 +15,7 @@
         public string speech;
     }
 
-    [CreateAssetMenu (fileName = "Dialouge", menuName = "CustomScriptableObject/Dialouge")]
+    [CreateAssetMenu (fileName = "Dialouge", menuName = "FAITH/Gameplay/Dialouge", order = 2)]
     public class DialougePack : ScriptableObject {
         #region Custom Variables
 

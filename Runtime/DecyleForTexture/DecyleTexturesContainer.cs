@@ -4,7 +4,7 @@
 
     using System.Collections.Generic;
 
-    [CreateAssetMenu(fileName = "DecyleTextyreContainer", menuName = "Info Container/Create DecyleTextyreContainer")]
+    [CreateAssetMenu(fileName = "DecyleTextyreContainer", menuName = "FAITH/Gameplay/Create DecyleTextyreContainer", order = 3)]
     public class DecyleTexturesContainer : ScriptableObject
     {
         public List<DecyleTextureInfo> decyleTextureInfo;

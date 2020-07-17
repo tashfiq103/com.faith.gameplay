@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using UnityEngine;
 
-    [CreateAssetMenu(fileName = "LevelInfo", menuName = "Info Container/Create LevelInfo")]
+    [CreateAssetMenu(fileName = "LevelInfo", menuName = "FAITH/Gameplay/Create LevelInfo", order = 1)]
     public class LevelInfoContainer : ScriptableObject
     {
         #region Custom Variables
