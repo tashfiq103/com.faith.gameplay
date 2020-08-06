@@ -1,10 +1,6 @@
 {
     "name": "com.faith.gameplay",
-    "references": [
-        "GUID:6055be8ebefd69e48b49212b09b47b2f",
-        "GUID:f20f4210caa6c124a87f1517de5f3288",
-        "GUID:e3fa1e33a0182a1439df551d53282c21"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
@@ -13,6 +9,11 @@
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "1.0.0",
+            "define": "UNITY_TEXTMESH_PRO"
+        },
         {
             "name": "com.faith.math",
             "expression": "0.0.0",
