@@ -12,6 +12,17 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.faith.math",
+            "expression": "0.0.0",
+            "define": "FAITH_MATH"
+        },
+        {
+            "name": "com.faith.gameplay.service",
+            "expression": "0.0.0",
+            "define": "FAITH_GAMEPLAY_SERVICE"
+        }
+    ],
     "noEngineReferences": false
 }
