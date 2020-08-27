@@ -94,7 +94,7 @@
                     t_SpawnPriority[obstacleIndex] = items[t_ListOfObstacleCanBeSpawned[obstacleIndex]].spawnProbability;
 
                 }
-                PriorityBound[] t_AbsoluteSpawnPriority = MathFunction.Instance.GetPriorityBound(t_SpawnPriority);
+                PriorityBound[] t_AbsoluteSpawnPriority = MathFunction.GetPriorityBound(t_SpawnPriority);
 
                 float t_SelectedProbability = Random.Range(0.0f, 1.0f);
 

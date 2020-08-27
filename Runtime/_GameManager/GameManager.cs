@@ -122,7 +122,7 @@ public class GameManager : MonoBehaviour
 
         if (coinText != null) {
 
-            coinText.text = MathFunction.Instance.GetCurrencyInFormat(GetInGameCurrency());
+            coinText.text = MathFunction.GetCurrencyInFormat(GetInGameCurrency());
 
         }
     }

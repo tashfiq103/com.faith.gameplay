@@ -90,7 +90,7 @@
                 t_SpawnPriority[index] = prefabInfoReferences[index].ratioOfSpawn;
             }
 
-            priorityBoundary = MathFunction.Instance.GetPriorityBound(t_SpawnPriority);
+            priorityBoundary = MathFunction.GetPriorityBound(t_SpawnPriority);
         }
 
         private void CreateObject(int t_PrefabIndex)

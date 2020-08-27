@@ -297,7 +297,7 @@
 
                     if (m_TouchDownPosition != m_TouchPosition)
                     {
-                        t_JoyesticDirectionVector = MathFunction.Instance.GetUnitVector(
+                        t_JoyesticDirectionVector = MathFunction.GetUnitVector(
                             m_TouchDownPosition,
                             m_TouchPosition
                         );
@@ -320,7 +320,7 @@
                     }
                     else
                     {
-                        t_RotationInRadian = MathFunction.Instance.GetRotationInRadian(t_JoyesticDirectionVector);
+                        t_RotationInRadian = MathFunction.GetRotationInRadian(t_JoyesticDirectionVector);
 
                         t_JoyesticModifiedPosition = new Vector2(
                             (Mathf.Cos(t_RotationInRadian) * areaOfOuterBorderOutline),

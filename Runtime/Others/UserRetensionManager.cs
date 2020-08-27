@@ -329,7 +329,7 @@
                         if (!t_IsRewardAdReadyToBeDisplayed)
                         {
 
-                            awardAmountText.text = " " + MathFunction.Instance.GetCurrencyInFormat(t_RewardAmount) + " (" + MathFunction.Instance.GetCurrencyInFormat(t_RewardAmount * 2) + ")";
+                            awardAmountText.text = " " + MathFunction.GetCurrencyInFormat(t_RewardAmount) + " (" + MathFunction.GetCurrencyInFormat(t_RewardAmount * 2) + ")";
 
                             animatorForClaimRewardWithAd.SetTrigger("ACTIVE");
                             t_IsRewardAdReadyToBeDisplayed = true;

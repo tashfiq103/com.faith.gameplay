@@ -220,13 +220,13 @@
             //SettingPoint
             if (t_NewCoin.GetComponent<TextMeshProUGUI>())
             {
-                t_NewCoin.GetComponent<TextMeshProUGUI>().text = MathFunction.Instance.GetCurrencyInFormatInNonDecimal(t_CoinToBeAdded)+ "$";
+                t_NewCoin.GetComponent<TextMeshProUGUI>().text = MathFunction.GetCurrencyInFormatInNonDecimal(t_CoinToBeAdded)+ "$";
                 if (t_PointTextColor != new Color(0, 0, 0, 0))
                     t_NewCoin.GetComponent<TextMeshProUGUI>().color = t_PointTextColor;
             }
             else if (t_NewCoin.GetComponent<TextMeshPro>()) {
 
-                t_NewCoin.GetComponent<TextMeshPro>().text = MathFunction.Instance.GetCurrencyInFormatInNonDecimal(t_CoinToBeAdded) + "$";
+                t_NewCoin.GetComponent<TextMeshPro>().text = MathFunction.GetCurrencyInFormatInNonDecimal(t_CoinToBeAdded) + "$";
                 if (t_PointTextColor != new Color(0, 0, 0, 0))
                     t_NewCoin.GetComponent<TextMeshPro>().color = t_PointTextColor;
             }
