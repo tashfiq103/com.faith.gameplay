@@ -5,8 +5,7 @@
     using UnityEngine;
     using UnityEngine.Events;
     using UnityEngine.UI;
-
-    using com.faith.math;
+    using com.faith.core;
 
     public class UserRetensionManager : MonoBehaviour
     {

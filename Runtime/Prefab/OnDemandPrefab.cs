@@ -2,8 +2,7 @@
 {
     using System.Collections.Generic;
     using UnityEngine;
-
-    using com.faith.math;
+    using com.faith.core;
 
     [System.Serializable]
     public struct Item

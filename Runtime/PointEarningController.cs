@@ -5,7 +5,7 @@
     using UnityEngine;
     using TMPro;
 
-    using com.faith.math;
+    using com.faith.core;
     using com.faith.gameplay.service;
 
     public class PointEarningController : MonoBehaviour
