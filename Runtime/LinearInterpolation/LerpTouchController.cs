@@ -69,14 +69,14 @@
 
         }
 
-        private void OnTouchDown(Vector3 t_TouchPosition) {
+        private void OnTouchDown(Vector3 t_TouchPosition, int touchIndex) {
 
             m_TouchDownPosition = t_TouchPosition;
             m_PreviousTouchPosition = t_TouchPosition;
 
         }
 
-        private void OnTouch(Vector3 t_TouchPosition) {
+        private void OnTouch(Vector3 t_TouchPosition, int touchIndex) {
 
             m_TouchPosition = t_TouchPosition;
 
@@ -133,7 +133,7 @@
 
         }
 
-        private void OnTouchUp(Vector3 t_TouchPosition) {
+        private void OnTouchUp(Vector3 t_TouchPosition, int touchIndex) {
 
             m_TouchUpPosition = t_TouchPosition;
         }

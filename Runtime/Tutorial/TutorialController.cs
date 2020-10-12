@@ -41,7 +41,7 @@
 
         #region Configuretion
 
-        private void OnTouchDown(Vector3 t_TouchPosition) {
+        private void OnTouchDown(Vector3 t_TouchPosition, int touchIndex) {
 
             HideTutorial();
         }
